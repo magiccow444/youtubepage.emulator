@@ -1,0 +1,19 @@
+body {
+    background-color: hsl(0, 0%, 6%);
+}
+* {
+    box-sizing: border-box;
+}
+.utHeader {
+    position: sticky;
+    background-color: white;
+    width: 1200px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.menuButton {
+    width: 30px;
+    top: 0;
+    left: 0;
+}
