@@ -11,9 +11,19 @@ body {
     height: 100px;
     top: 0;
     left: 0;
+    display: inline-block;
 }
 .menuButton {
     width: 30px;
-    top: 0;
-    left: 0;
+    float: left;
+    top: 0px;
+    left: 0px;
+    transform: translate(14px, 9px);
+}
+.logo {
+    float: left;
+    width: 90px;
+    top: 0px;
+    left: 0px;
+    transform: translate(40px, -20px);
 }
