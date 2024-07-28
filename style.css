@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 .utHeader {
-    position: sticky;
+    position: fixed;
     background-color: white;
     width: 1250px;
     height: 100px;
@@ -21,24 +21,45 @@ body {
     top: 0;
     left: 0;
     display: inline-block;
-    transform: translate(-120px, 30px);
+    transform: translate(-620px, 50px);
 }
 .menuButton {
     width: 30px;
     float: left;
     top: 0px;
     left: 0px;
-    transform: translate(14px, 9px);
+    transform: translate(23px, 13px);
 }
 .logo {
     float: left;
-    width: 90px;
+    width: 100px;
     top: 0px;
     left: 0px;
-    transform: translate(40px, -20px);
+    transform: translate(40px, -22px);
 }
 .searchBar {
     background-color: hsl(0, 0%, 6%);
-    transform: translate(300px, 13px) scale(1.8);
+    transform: translate(300px, 3px) scale(1.8);
     width: 350px;
+    display: inline-block;
+}
+.voiceSearch {
+    transform: translate(450px, 13px) scale(1.5, 1.5);
+    width: 30px;
+    display: inline-block;
+}
+.createButton {
+    transform: translate(586px, 13px) scale(1.5, 1.5);
+    width: 30px;
+    display: inline-block;
+}
+.notifsButton {
+    transform: translate(606px, 13px) scale(1.7, 1.7);
+    width: 30px;
+    display: inline-block;
+}
+.profile {
+    transform: translate(625px, 10px) scale(1.7, 1.7);
+    width: 30px;
+    display: inline-block;
 }
