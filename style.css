@@ -89,6 +89,9 @@ p {
     width: 30px;
     display: inline-block;
 }
+
+/* Nav bar: */
+
 .navBar ul {
     list-style-type: none;
     background-color: hsl(0, 0%, 27%);
@@ -113,5 +116,33 @@ p {
 .navBar {
     background-color: hsl(0, 0%, 6%);
     height: 20px;
-    transform: translate(-50px, 20px);
+    transform: translate(-50px, 30px);
 }
+
+/* Videos: */
+
+.videosContainer {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 140px;
+    column-gap: 5px;
+}
+#video1Thumbnail {
+    width: 390px;
+}
+#video1Channel {
+    width: 40px;
+}
+#video2Thumbnail {
+    width: 390px;
+}
+#video2Channel {
+    width: 40px;
+}
+#video3Thumbnail {
+    width: 390px;
+}
+#video3Channel {
+    width: 40px;
+}
+
