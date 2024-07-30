@@ -4,9 +4,14 @@ body {
 * {
     box-sizing: border-box;
 }
+p {
+    color: white;
+    margin-left: 80px;
+    margin-top: 35px;
+}
 .utHeader {
     position: fixed;
-    background-color: white;
+    background-color: hsl(0, 0%, 6%);
     width: 1250px;
     height: 100px;
     top: 0;
@@ -15,7 +20,7 @@ body {
 }
 .sideHeader {
     position: fixed;
-    background-color: white;
+    background-color: hsl(0, 0%, 6%);
     width: 80px;
     height: 620px;
     top: 0;
@@ -42,6 +47,7 @@ body {
     transform: translate(300px, 3px) scale(1.8);
     width: 350px;
     display: inline-block;
+    color: white;
 }
 .voiceSearch {
     transform: translate(450px, 13px) scale(1.5, 1.5);
@@ -62,4 +68,49 @@ body {
     transform: translate(625px, 10px) scale(1.7, 1.7);
     width: 30px;
     display: inline-block;
+}
+.homeButton {
+    transform: translate(25px, 25px) scale(1.7, 1.7);
+    width: 30px;
+    display: inline-block;
+}
+.shortsButton {
+    transform: translate(-10px, 105px) scale(1.5, 1.5);
+    width: 30px;
+    display: inline-block;
+}
+.subsButton {
+    transform: translate(25px, 130px) scale(2.3, 2.3);
+    width: 30px;
+    display: inline-block;
+}
+.libraryButton {
+    transform: translate(-10px, 210px) scale(1.7, 1.7);
+    width: 30px;
+    display: inline-block;
+}
+.navBar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 6%);
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+}
+.navBar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navBar a:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+.navBar li {
+    float: left;
+}
+.navBar {
+    background-color: hsl(0, 0%, 6%);
+    height: 20px;
+    transform: translate(-50px, 20px);
 }
