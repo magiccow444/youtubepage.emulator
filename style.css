@@ -132,6 +132,7 @@ p {
 }
 #video1Channel {
     width: 40px;
+    float: left;
 }
 #video2Thumbnail {
     width: 390px;
